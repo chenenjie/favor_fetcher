@@ -34,9 +34,11 @@ fn main() {
 
     println!("status {} ", resp.status().is_success());
 
-    let body = resp.text().unwrap();
+    // let body = resp.text().unwrap();
+    let mut buf: Vec<u8> = vec![];
+    resp.copy_to(&mut buf).unwrap();
 
-    println!("body = {:?}", body);
+    println!("body = {:?}", buf);
 
     // println!("{:?}", dir);
 }
