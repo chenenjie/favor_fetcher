@@ -1,0 +1,9 @@
+[package]
+name = "comic"
+version = "0.1.0"
+authors = ["chenej <chenej@gzyitop.com>"]
+
+[dependencies]
+file-fetcher = "0.1.1"
+victoria-dom = "0.1"
+reqwest = "0.8.2"
