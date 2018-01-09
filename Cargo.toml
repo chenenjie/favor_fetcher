@@ -7,3 +7,6 @@ authors = ["chenej <chenej@gzyitop.com>"]
 file-fetcher = "0.1.1"
 victoria-dom = "0.1"
 reqwest = "0.8.2"
+encoding = "0.2.33"
+regex = "0.2.5"
+error-chain = "0.11.0"
